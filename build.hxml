@@ -1,0 +1,28 @@
+# Macros
+--macro includeFile('src/no-linting.js')
+
+# Compliation Target
+-js src/main.jsx
+
+# Source Path
+-p src/haxe
+
+# Runtime Environment
+-m Main
+
+# Optimization Level
+-dce full
+-D analyzer-optimize
+-D js-classic
+-D js-es=6
+
+# Libraries
+-L jsImport
+-L react
+
+# Definitions
+-D react_fragments
+-D react-np-inline
+-D react_context_api
+-D react_ref_api
+-D emotion
